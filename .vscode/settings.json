@@ -1,0 +1,32 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/utk/mobi_ws/install/mobi_gui/lib/python3.10/site-packages",
+        "/home/utk/mobi_ws/install/mobi_vision/lib/python3.10/site-packages",
+        "/home/utk/mobi_ws/install/mobi_utils/local/lib/python3.10/dist-packages",
+        "/home/utk/mobi_ws/install/mobi_speech/lib/python3.10/site-packages",
+        "/home/utk/mobi_ws/install/mobi_planning/local/lib/python3.10/dist-packages",
+        "/home/utk/mobi_ws/install/mobi_navigation/local/lib/python3.10/dist-packages",
+        "/home/utk/mobi_ws/install/mobi_msgs/local/lib/python3.10/dist-packages",
+        "/home/utk/mobi_ws/install/mobi_firmware/local/lib/python3.10/dist-packages",
+        "/home/utk/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/home/utk/rail_ws/install/rail_msgs/local/lib/python3.10/dist-packages",
+        "/home/utk/rail_ws/install/rail_controller/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/utk/mobi_ws/install/mobi_gui/lib/python3.10/site-packages",
+        "/home/utk/mobi_ws/install/mobi_vision/lib/python3.10/site-packages",
+        "/home/utk/mobi_ws/install/mobi_utils/local/lib/python3.10/dist-packages",
+        "/home/utk/mobi_ws/install/mobi_speech/lib/python3.10/site-packages",
+        "/home/utk/mobi_ws/install/mobi_planning/local/lib/python3.10/dist-packages",
+        "/home/utk/mobi_ws/install/mobi_navigation/local/lib/python3.10/dist-packages",
+        "/home/utk/mobi_ws/install/mobi_msgs/local/lib/python3.10/dist-packages",
+        "/home/utk/mobi_ws/install/mobi_firmware/local/lib/python3.10/dist-packages",
+        "/home/utk/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/home/utk/rail_ws/install/rail_msgs/local/lib/python3.10/dist-packages",
+        "/home/utk/rail_ws/install/rail_controller/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<robot name="bot" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <!-- bot Wheels -->
+    <gazebo reference="right_wheel_link">
+        <mu1>1000000000000000.0</mu1>
+        <mu2>1000000000000000.0</mu2>
+        <kp>1000000000000.0</kp>
+        <kd>10.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>0.1</maxVel>
+        <fdir1>1 0 0</fdir1>
+    </gazebo>
+
+    <gazebo reference="left_wheel_link">
+        <mu1>1000000000000000.0</mu1>
+        <mu2>1000000000000000.0</mu2>
+        <kp>1000000000000.0</kp>
+        <kd>10.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>0.1</maxVel>
+        <fdir1>1 0 0</fdir1>
+    </gazebo>
+
+    <!-- Caster Wheels -->
+    <gazebo reference="front_castor_link">
+        <mu1>0.1</mu1>
+        <mu2>0.1</mu2>
+        <kp>1000000.0</kp>
+        <kd>100.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>1.0</maxVel>
+    </gazebo>
+
+    <gazebo reference="back_castor_link">
+        <mu1>0.1</mu1>
+        <mu2>0.1</mu2>
+        <kp>1000000.0</kp>
+        <kd>100.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>1.0</maxVel>
+    </gazebo>
+
+    <!-- bot Sensors -->
+    <!-- 2D Laser Sensor -->
+    <gazebo reference="laser_link">
+        <sensor name="lidar" type="gpu_lidar">
+            <pose>0 0 0 1.57 0 0</pose> <!-- Verify, if doesnot work then change-->
+            <always_on>true</always_on>
+            <visualize>true</visualize>
+            <topic>scan</topic>
+            <update_rate>5</update_rate>
+            <gz_frame_id>laser_link</gz_frame_id> 
+            <lidar>
+                <scan>
+                    <horizontal>
+                        <samples>10</samples>
+                        <resolution>1.00000</resolution>
+                        <min_angle>-1.000000</min_angle>
+                        <max_angle>0.0</max_angle>
+                    </horizontal>
+                </scan>
+                <range>
+                    <min>0.0500000</min> <!-- Done this much to prevent robot rod obstruction-->
+                    <max>4.0</max> <!-- Might consider changing according to real lidar values-->
+                    <resolution>0.02</resolution>
+                </range>
+                <noise>
+                    <type>gaussian</type>
+                    <mean>0.0</mean>
+                    <stddev>0.01</stddev>
+                </noise>
+            </lidar>
+        </sensor>
+    </gazebo>
+
+    <!-- ROS 2 Control -->
+    <gazebo>
+        <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+            <parameters>$(find bot_controller)/config/bot_controllers.yaml</parameters>
+        </plugin>
+
+        <plugin filename="ignition-gazebo-sensors-system" name="ignition::gazebo::systems::Sensors">
+            <render_engine>ogre2</render_engine>
+        </plugin>
+    </gazebo>
+
+</robot>

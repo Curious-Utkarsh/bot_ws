@@ -1,0 +1,17 @@
+/home/utk/bot_ws/install/bot_controller/share/bot_controller/launch/controller.launch.py
+/home/utk/bot_ws/install/bot_controller/share/bot_controller/config/bot_controllers.yaml
+/home/utk/bot_ws/install/bot_controller/share/ament_index/resource_index/package_run_dependencies/bot_controller
+/home/utk/bot_ws/install/bot_controller/share/ament_index/resource_index/parent_prefix_path/bot_controller
+/home/utk/bot_ws/install/bot_controller/share/bot_controller/environment/ament_prefix_path.sh
+/home/utk/bot_ws/install/bot_controller/share/bot_controller/environment/ament_prefix_path.dsv
+/home/utk/bot_ws/install/bot_controller/share/bot_controller/environment/path.sh
+/home/utk/bot_ws/install/bot_controller/share/bot_controller/environment/path.dsv
+/home/utk/bot_ws/install/bot_controller/share/bot_controller/local_setup.bash
+/home/utk/bot_ws/install/bot_controller/share/bot_controller/local_setup.sh
+/home/utk/bot_ws/install/bot_controller/share/bot_controller/local_setup.zsh
+/home/utk/bot_ws/install/bot_controller/share/bot_controller/local_setup.dsv
+/home/utk/bot_ws/install/bot_controller/share/bot_controller/package.dsv
+/home/utk/bot_ws/install/bot_controller/share/ament_index/resource_index/packages/bot_controller
+/home/utk/bot_ws/install/bot_controller/share/bot_controller/cmake/bot_controllerConfig.cmake
+/home/utk/bot_ws/install/bot_controller/share/bot_controller/cmake/bot_controllerConfig-version.cmake
+/home/utk/bot_ws/install/bot_controller/share/bot_controller/package.xml

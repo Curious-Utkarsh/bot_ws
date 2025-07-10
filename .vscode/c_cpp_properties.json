@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/utk/mobi_ws/install/mobi_controller/include/**",
+        "/home/utk/mobi_ws/install/mobi_planning/include/**",
+        "/home/utk/mobi_ws/install/mobi_navigation/include/**",
+        "/home/utk/mobi_ws/install/mobi_msgs/include/**",
+        "/home/utk/mobi_ws/install/mobi_localization/include/**",
+        "/home/utk/mobi_ws/install/mobi_mapping/include/**",
+        "/home/utk/mobi_ws/install/mobi_firmware/include/**",
+        "/home/utk/microros_ws/install/micro_ros_agent/include/**",
+        "/home/utk/microros_ws/install/micro_ros_msgs/include/**",
+        "/home/utk/rail_ws/install/rail_msgs/include/**",
+        "/home/utk/rail_ws/install/rail_controller/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/utk/bot_ws/src/bot_description/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

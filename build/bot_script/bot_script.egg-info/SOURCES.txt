@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+bot_script/__init__.py
+bot_script/edge_detection.py
+bot_script.egg-info/PKG-INFO
+bot_script.egg-info/SOURCES.txt
+bot_script.egg-info/dependency_links.txt
+bot_script.egg-info/entry_points.txt
+bot_script.egg-info/requires.txt
+bot_script.egg-info/top_level.txt
+bot_script.egg-info/zip-safe
+resource/bot_script

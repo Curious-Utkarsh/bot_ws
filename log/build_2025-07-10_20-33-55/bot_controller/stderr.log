@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:18 (find_package):
+  By not providing "Findbot_utils.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "bot_utils", but CMake did not find one.
+
+  Could not find a package configuration file provided by "bot_utils" with
+  any of the following names:
+
+    bot_utilsConfig.cmake
+    bot_utils-config.cmake
+
+  Add the installation prefix of "bot_utils" to CMAKE_PREFIX_PATH or set
+  "bot_utils_DIR" to a directory containing one of the above files.  If
+  "bot_utils" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1
