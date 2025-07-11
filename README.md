@@ -20,11 +20,7 @@ This repository contains a ROS 2-based mobile robot simulation with an edge-avoi
 Follow the official ROS 2 installation instructions:
 
 ```bash
-sudo apt update && sudo apt install curl gnupg lsb-release
-sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
-sudo sh -c 'echo "deb [arch=$(dpkg --print-architecture)] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2.list'
-sudo apt update
-sudo apt install ros-humble-desktop
+https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
 ```
 
 ### 2️⃣ Source ROS 2 and Add to `.bashrc`
