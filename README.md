@@ -101,6 +101,9 @@ echo "source ~/bot_ws/install/setup.bash" >> ~/.bashrc
 
 ```bash
 sudo apt install python3-colcon-argcomplete
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
+
 ```
 
 ---
