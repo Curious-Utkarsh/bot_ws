@@ -1,1 +1,0 @@
-/home/utk/bot_ws/build/bot_controller/ament_cmake_environment_hooks/local_setup.bash

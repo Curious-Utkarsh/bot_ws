@@ -1,3 +1,0 @@
-[console_scripts]
-edge_detection = bot_script.edge_detection:main
-

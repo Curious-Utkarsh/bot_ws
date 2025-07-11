@@ -1,9 +1,0 @@
-/home/utk/bot_ws/build/bot_bringup/CMakeFiles/uninstall.dir
-/home/utk/bot_ws/build/bot_bringup/CMakeFiles/bot_bringup_uninstall.dir
-/home/utk/bot_ws/build/bot_bringup/CMakeFiles/test.dir
-/home/utk/bot_ws/build/bot_bringup/CMakeFiles/edit_cache.dir
-/home/utk/bot_ws/build/bot_bringup/CMakeFiles/rebuild_cache.dir
-/home/utk/bot_ws/build/bot_bringup/CMakeFiles/list_install_components.dir
-/home/utk/bot_ws/build/bot_bringup/CMakeFiles/install.dir
-/home/utk/bot_ws/build/bot_bringup/CMakeFiles/install/local.dir
-/home/utk/bot_ws/build/bot_bringup/CMakeFiles/install/strip.dir

@@ -1,1 +1,0 @@
-/home/utk/bot_ws/build/bot_controller/ament_cmake_core/bot_controllerConfig.cmake

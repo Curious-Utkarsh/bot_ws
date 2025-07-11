@@ -1,1 +1,0 @@
-/home/utk/bot_ws/src/bot_bringup/launch/simulated_robot.launch.py

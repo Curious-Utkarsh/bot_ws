@@ -1,9 +1,0 @@
-source;share/bot_script/hook/pythonpath.ps1
-source;share/bot_script/hook/pythonpath.dsv
-source;share/bot_script/hook/pythonpath.sh
-source;share/bot_script/hook/ament_prefix_path.ps1
-source;share/bot_script/hook/ament_prefix_path.dsv
-source;share/bot_script/hook/ament_prefix_path.sh
-source;../../build/bot_script/share/bot_script/hook/pythonpath_develop.ps1
-source;../../build/bot_script/share/bot_script/hook/pythonpath_develop.dsv
-source;../../build/bot_script/share/bot_script/hook/pythonpath_develop.sh
