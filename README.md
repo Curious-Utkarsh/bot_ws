@@ -1,3 +1,5 @@
+> **Maintained version:** this is the original workshop workspace (July 2025). The updated project, with Docker support and a demo video, lives at **[MechaMind-Labs/Edge_Avoiding_Robot](https://github.com/MechaMind-Labs/Edge_Avoiding_Robot)**. Workshop recording: [Build a Fully Autonomous Edge-Avoiding Robot from Scratch](https://youtu.be/luZq317FUrE) · Step-by-step handout: [session_steps](https://github.com/Curious-Utkarsh/session_steps)
+
 # 🤖 bot_ws – Simulated Edge-Avoidance Robot
 
 This repository contains a ROS 2-based mobile robot simulation with an edge-avoidance behavior. The robot uses a simulated LIDAR sensor in Gazebo and responds to edges or drops detected in its environment.
