@@ -1,4 +1,4 @@
-> **Maintained version:** this is the original workshop workspace (July 2025). The updated project, with Docker support and a demo video, lives at **[MechaMind-Labs/Edge_Avoiding_Robot_Gazebo](https://github.com/MechaMind-Labs/Edge_Avoiding_Robot_Gazebo)**. Workshop recording: [Build a Fully Autonomous Edge-Avoiding Robot from Scratch](https://youtu.be/luZq317FUrE) · Step-by-step handout: [session_steps](https://github.com/Curious-Utkarsh/session_steps)
+> **Maintained version:** this is the original workshop workspace (July 2025). The updated project, with Docker support and a demo video, lives at **[MechaMind-Labs/Edge_Avoiding_Robot_Gazebo](https://github.com/MechaMind-Labs/Edge_Avoiding_Robot_Gazebo)**. Workshop recording: [Build a Fully Autonomous Edge-Avoiding Robot from Scratch](https://youtu.be/luZq317FUrE) · Step-by-step handout: [session_steps](https://github.com/MechaMind-Labs/session_steps)
 
 # 🤖 bot_ws – Simulated Edge-Avoidance Robot
 
